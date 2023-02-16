@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1085300007601692776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9091214594903996624}
+  - component: {fileID: 5436810198879504308}
+  - component: {fileID: 1845548288}
+  - component: {fileID: 1845548286}
+  m_Layer: 0
+  m_Name: Triceratops
+  m_TagString: Breakable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9091214594903996624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085300007601692776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.82, y: 3.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5436810198879504308
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085300007601692776}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 03b68a225638aac4f8110cb2aeb81dad, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.1, y: 5.89}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!60 &1845548288
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085300007601692776}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.6719577, y: 1.5582011}
+    newSize: {x: 10.1, y: 5.89}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.68253964, y: -0.29232803}
+      - {x: 0.86772484, y: -0.28703701}
+      - {x: 0.86507934, y: -0.18650793}
+      - {x: 1.0555556, y: -0.18386243}
+      - {x: 1.1455026, y: -0.10185185}
+      - {x: 1.2328042, y: -0.014550264}
+      - {x: 1.3201058, y: 0.13624339}
+      - {x: 1.3201058, y: 0.37698412}
+      - {x: 1.3148148, y: 0.40873015}
+      - {x: 1.1296296, y: 0.39021164}
+      - {x: 1.1190476, y: 0.3796296}
+      - {x: 0.96031743, y: 0.29497352}
+      - {x: 0.86243385, y: 0.29497352}
+      - {x: 0.86243385, y: 0.4537037}
+      - {x: 0.97619045, y: 0.4589947}
+      - {x: 0.9523809, y: 0.6838624}
+      - {x: 0.7433862, y: 0.68650794}
+      - {x: 0.56878304, y: 0.6679894}
+      - {x: 0.49206346, y: 0.76322746}
+      - {x: 0.28306878, y: 0.76322746}
+      - {x: 0.27777776, y: 0.6706349}
+      - {x: 0.0978836, y: 0.6759259}
+      - {x: 0.079365075, y: 0.5806878}
+      - {x: -0.09523809, y: 0.5701058}
+      - {x: -0.1957672, y: 0.38756612}
+      - {x: -0.28571427, y: 0.29497352}
+      - {x: -0.28571427, y: 0.20502645}
+      - {x: -0.5555555, y: 0.20767196}
+      - {x: -0.6534391, y: 0.10185185}
+      - {x: -0.8518518, y: 0.014550264}
+      - {x: -1.0291005, y: -0.08068783}
+      - {x: -1.026455, y: -0.17063491}
+      - {x: -1.3042327, y: -0.17063491}
+      - {x: -1.3095238, y: -0.17592593}
+      - {x: -1.3095238, y: -0.28968254}
+      - {x: -1.1296296, y: -0.49338624}
+      - {x: -0.93915343, y: -0.4669312}
+      - {x: -0.9497354, y: -0.5621693}
+      - {x: -0.74867725, y: -0.7579365}
+      - {x: -0.6507936, y: -0.7579365}
+      - {x: -0.26719576, y: -0.74470896}
+      - {x: -0.25925925, y: -0.74206346}
+      - {x: -0.1957672, y: -0.59126985}
+      - {x: -0.19047618, y: -0.7579365}
+      - {x: 0.3095238, y: -0.7579365}
+      - {x: 0.542328, y: -0.48015872}
+      - {x: 0.49735448, y: -0.39285713}
+      - {x: 0.6878307, y: -0.38227513}
+--- !u!114 &1845548286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085300007601692776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192af6e021538dc43b3e46a510baa923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BreakSound: {fileID: 8300000, guid: 13938bf5a60e93941bd16020b4a29e89, type: 3}
+  BlockDestroyedVfx: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  MaxHits: 1
+  HitSprites: []
+  TimesHit: 0
+  MoveSpeedForward: 3.5
+  MoveSpeedBackward: 1.25
+  BladesOfGrass:
+  - {fileID: 1408158718966671586, guid: 0ad942d5a3ec59e41b4a41ca15cf477e, type: 3}
+  - {fileID: 9049632285913237171, guid: a85fcd3724ed3524dbf6167875deea3f, type: 3}
+  - {fileID: 5132833921815976859, guid: d7492b3fccc11eb45b82995d91e1b5c1, type: 3}
+  - {fileID: 6199841684066758919, guid: 6a93af5dfb1d0d646a091390d1722b9f, type: 3}
+  - {fileID: 3271303979503012570, guid: 14957e50405ed1946b83e99a5fb0a14c, type: 3}
+  - {fileID: 3631849054229151322, guid: 2c8a566a056d0d64cae93b36fefe4027, type: 3}
